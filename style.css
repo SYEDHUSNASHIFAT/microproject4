@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:  #3B4664;
+    gap: 1rem;
+}
+#display{
+    text-align: right;
+    padding-top: 0.5rem;
+    padding-right: 0.4rem;
+    background-color: #181F32;
+    border: none;
+    height: 2rem;
+    width: 17rem;
+    border-radius: 0.3rem;
+    box-shadow: #181F32;
+    font-size: x-large;
+    font-weight: 800;
+    color: white;
+}
+.grids{
+    display: grid;
+    grid-template-rows: 2.5rem 2.5rem 2.5rem 2.5rem 2.5rem;
+    grid-template-columns: 3.5rem 3.5rem 3.5rem 3.5rem;
+    row-gap: 0.5rem;
+    column-gap: 0.5rem;
+    background-color:  #252D44;
+    padding: 0.9rem;
+    border-radius: 0.3rem;
+    box-shadow: black;
+}
+#reset{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #647299;
+    color: white;
+}
+#equal{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: #D13F30;
+    color: white;
+}
+#delete{
+    background-color: #647299;
+    color: white;
+}
+button{
+    border: none;
+    border-radius: 0.3rem;
+    color: #3B4664;
+    font-size: large;
+    font-weight: 900;
+    cursor: pointer;
+}
